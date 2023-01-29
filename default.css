@@ -1,4 +1,9 @@
 body {
     background-color: #000000;
+    background-image: url(./header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: #FFFFFF;
 }
