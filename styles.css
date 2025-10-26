@@ -269,9 +269,13 @@ footer p {
     }
 
     .links-grid,
-    .flyer-gallery,
     .media-grid {
         grid-template-columns: 1fr;
+    }
+
+    .flyer-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
 
     /* Adjust scroll margin for mobile */
